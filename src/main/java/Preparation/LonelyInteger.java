@@ -27,7 +27,6 @@ class LonelyInteger {
     int result = 0;
     for (int i = 0; i < a.size() - 1; i+=2) {
         if (!a.get(i).equals(a.get(i + 1))) return a.get(i);
-        result^ =
     }
     return a.get(a.size() - 1);
     }
